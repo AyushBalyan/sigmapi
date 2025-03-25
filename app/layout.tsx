@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-white bg-no-repeat bg-cover`}
+        className={`${inter.className} bg-[url('/Bg-img.png')] bg-no-repeat bg-cover`}
       >
         <Navbar />
         <main>{children}</main>
