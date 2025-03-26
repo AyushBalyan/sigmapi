@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import CachedS3Image from '../global/CachedS3Image';
 import Link from 'next/link';
 
 export default function Empowering() {
@@ -13,7 +14,7 @@ export default function Empowering() {
             
             <div className="relative z-10">
               <div className="overflow-hidden rounded-2xl shadow-lg aspect-square">
-                <Image
+                <CachedS3Image
                   src="/Home/Empowering.jpeg"
                   alt="Person presenting to a group in a brick-walled workspace"
                   width={600}
