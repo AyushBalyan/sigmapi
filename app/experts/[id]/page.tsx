@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ExpertProjects from '@/components/Experts/ExpertProjects';
 import RelatedExperts from '@/components/Experts/RelatedExperts';
-import { Linkedin } from 'lucide-react';
 import BecomeExpertBanner from '@/components/global/BecomeExpertBanner';
 
 // This would be replaced by an actual API call in production

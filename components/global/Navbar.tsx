@@ -5,9 +5,10 @@ import { useState } from 'react';
 
 // Navigation links data
 const navLinks = [
-  { href: "/about", label: "About Us" },
+  { href: "/", label: "Home" },
   { href: "/experts", label: "Experts" },
   { href: "/seekers", label: "Seekers" },
+  { href: "/about", label: "About Us" },
 ];
 
 export default function Navbar() {

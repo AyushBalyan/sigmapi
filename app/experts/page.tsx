@@ -7,7 +7,7 @@ import JoinTeamBanner from "@/components/global/JoinTeamBanner"
 
 export default function Experts(){
     return(
-        <div className="mx-auto mb-40">
+        <div className="mx-auto pb-40">
             <ExpertsHero />
             <ExpertList />
             {/* <ExpertBlogs /> */}
